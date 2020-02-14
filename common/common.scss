@@ -58,7 +58,7 @@
     text-align: center;
     color: $secondary_text_color;
   }
-  
+
   a {
     color: $link_text_color;
   }
@@ -82,6 +82,8 @@
       margin: 0;
       padding: 15px;
       text-align: center;
+      width: 700px;
+      display: inline-block;
     }
   }
 
@@ -115,10 +117,6 @@
           text-align: left;
           margin: 0;
         }
-      }
-
-      .btn.btn-icon-text {
-        background: $secondary_text_color;
       }
     }
   }
@@ -217,6 +215,8 @@
   .banner-box .section-header .x-title {
     padding: 15px;
     margin-top: 1em;
+    font-size: 3em;
+    font-weight: 300;
   }
 
   // Drop heading below main title
