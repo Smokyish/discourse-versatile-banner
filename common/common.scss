@@ -215,7 +215,7 @@
   .banner-box .section-header .x-title {
     padding: 15px;
     margin-top: 1em;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 300;
   }
 
@@ -260,4 +260,26 @@
 }
 .category-title-header {
   margin-bottom: -65px !important;
+}
+
+.banner-box .btn {
+  .btn {
+    border-radius: 50px;
+    @include boxShadow;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid $primary;
+    padding: 17px 50px;
+    font-weight: 700;
+    outline: none;
+    min-height: 40px;
+    line-height: normal;
+    width: auto;
+    color: $primary;
+  }
+
+  .btn:hover {
+    border: 2px solid $tertiary;
+    color: $tertiary;
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
